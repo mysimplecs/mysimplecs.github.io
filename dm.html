@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <title>SimpleCS</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="index.html" class="nav__logo">SimpleCS</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="index.html" class="nav__link">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Home</span>
+                        </a>
+                        <a href="subjects.html" class="nav__link">
+                            <ion-icon name="book" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Courses</span>
+                        </a>
+<!-- 
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Projects</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+
+                        <a href="hw.html" class="nav__link">
+                            <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Homeworks</span>
+                        </a>
+
+                        <div class="nav__link collapse">
+                            <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Team</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div> 
+                        <a href="#" class="nav__link">
+                            <ion-icon name="link" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Useful Links</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Log Out</span>
+                </a>-->
+            </nav>
+        </div>
+
+        <h1>Discrete Mathematics</h1>
+
+        <hr>
+
+
+        <div class="container1">
+            <div class="course2">
+                <div class="preview2">
+                    <h6>E-BOOK</h6>
+                    <h2>Discrete Mathematics<br>Book 1</h2>
+                </div>
+                <div class="info">
+                    <div class="progress-wrapper">
+                        <h6>Discrete Mathematics</h6>
+                        <h2>Cengage Discrete Mathematics with Applications (5th Edition)</h2>
+                        <p class="p-trunc">
+                            Susanna S. Epp
+                        </p>
+                        <button class="btn3">
+                            Read Online
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <div class="course2">
+                <div class="preview2">
+                    <h6>E-BOOK</h6>
+                    <h2>Discrete Mathematics<br>Book 2</h2>
+                </div>
+                <div class="info">
+                    <div class="progress-wrapper">
+                        <h6>Discrete Mathematics</h6>
+                        <h2>How to Think Like a Computer
+                            Scientist: Learning with Python 3</h2>
+                        <p class="p-trunc">
+                            Kenneth H. Rosen
+                        </p>
+                        <button class="btn3">
+                            Read Online
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+          <h3><u>Homeworks and Assignments</u></h3>
+
+          <div class="row">
+            <div class="column left">
+                <h4>Week 1 - Chapter 1, Chapter 2, Appendix A, Appendix B</h4>
+                <h4>Week 2 - Chapter 7, Chapter 8</h4>
+                <h4>Week 3 - Chapter 3, Chapter 4</h4>
+                
+            </div>
+            <div class="column middle">
+                <h4>Week 4 - Chapter 5</h4>
+                <h4>Week 5 - Chapter 9, Chapter 6</h4>
+                <h4>Week 6 - Chapter 5</h4>
+
+
+            </div>
+            <div class="column right">
+                <h4 style="color:red;">Week 7 - Midterm Review and Exam</h4> 
+                <h4>Week 8 - How to Think Like a
+                    Computer Scientist</h4>
+            </div>
+          </div>
+
+
+          <h3>Zoom Meeting ID for classes - <span class="blue">980 3189 2889</span></h3>
+          <h3>Zoom Meeting ID for meeting professor - <span class="blue"> 675 611 5712</span> (Monday 1:00 PM - 2:00 PM)</h3>
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            const trunc =
+            document.querySelector('.p-trunc');
+            trunc.innerText = trunc.innerText.substring(0,100);
+        </script>
+    </body>
+</html>
